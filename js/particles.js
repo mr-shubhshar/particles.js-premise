@@ -1,1 +1,1 @@
-particlesJS("snowfall", "assets/snowfall.json"});
+particlesJS("snowfall", "assets/snowfall.json");
