@@ -1,5 +1,12 @@
 #snowfall {
-    /*height: 500px;
-    width: 500px;*/
+    height: 350px;
+    width: 680px;
     background: black;
+    float: left;
+}
+
+#random {
+    height: 350px;
+    background: gray;
+    margin-left: 690px;
 }
