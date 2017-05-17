@@ -114,6 +114,10 @@ particlesJS("particles", {
         }
     },
     "interactivity": {
+        "detect_on": "windows",
+        "events": {
+            "resize": true,
 
+        }
     }
 });
