@@ -1,1 +1,1 @@
-This repo contains code for the introduction to Particles.js Javascript library.
+This repo contains code similar to Tuts+'s introduction to Particles.js tutorial.
