@@ -22,6 +22,9 @@ particlesJS("snowfall", {
             "speed": 1.2,
             "direction": "bottom",
             "straight": false //default
+        },
+        "color": {
+            "value": "#f7f7f7"
         }
     },
     "interactivity": {
