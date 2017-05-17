@@ -96,3 +96,24 @@ particlesJS("space", {
         }
     }
 });
+
+particlesJS("particles", {
+    "particles": {
+        "number": {
+            "value": 100,
+            "density": {
+                "enable": true,
+                "value_area": 500
+            }
+        },
+        "shape": {
+            "type": "circle"
+        },
+        "size": {
+            "value": 1
+        }
+    },
+    "interactivity": {
+
+    }
+});

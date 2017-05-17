@@ -1,13 +1,21 @@
 #snowfall {
-    height: 350px;
-    width: 680px;
+    height: 300px;
+    width: 50%;
     background: skyblue;
     float: left;
+    margin-bottom: 20px
 }
 
 #space {
-    height: 350px;
+    height: 300px;
     background: gray;
     margin-left: 690px;
+    margin-bottom: 20px;
     background: black;
+}
+
+#particles {
+    width: 100%;
+    background: black;
+    height: 330px;
 }
