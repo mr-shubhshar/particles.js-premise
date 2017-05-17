@@ -27,6 +27,11 @@ particlesJS("snowfall", {
             //"value": "#f7f7f7"
             "value": ["#f7f7f7", "#f9eded", "#e5e0e0", "#f2efef"],
             "random": true
+            //"value": "random"
+        },
+        "opacity": {
+            "value": 1,
+            "random": false
         }
     },
     "interactivity": {
