@@ -63,13 +63,17 @@ particlesJS("space", {
             "random": true
         },
         "move": {
-            "speed": 2,
+            "speed": 3.3,
             "direction": "right",
             "straight": true
         },
         "opacity": {
             "value": 1,
-            "random": true
+            "random": false,
+            "anim": {
+                "enable": true,
+                "speed": 5,
+            }
         }
     },
     "interactivity": {
