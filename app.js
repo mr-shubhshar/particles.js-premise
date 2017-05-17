@@ -73,6 +73,8 @@ particlesJS("space", {
             "anim": {
                 "enable": true,
                 "speed": 5,
+                "opacity_min": 0.3,
+                "sync": false
             }
         }
     },
