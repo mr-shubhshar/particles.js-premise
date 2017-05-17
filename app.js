@@ -117,7 +117,10 @@ particlesJS("particles", {
         "detect_on": "windows",
         "events": {
             "resize": true,
-
+            "onhover": {
+                "enable": true,
+                "mode": "repulse"
+            }
         }
     }
 });
