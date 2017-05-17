@@ -46,7 +46,7 @@ particlesJS("snowfall", {
 particlesJS("space", {
     "particles": {
         "number": {
-            "value": 20,
+            "value": 25,
             "density": {
                 "enable": true,
                 "value_area": 300
@@ -56,11 +56,18 @@ particlesJS("space", {
             "enable": false
         },
         "shape": {
-            "type": "circle"
+            "type": ["circle", "star"],
+            "random": true
         },
         "size": {
             "value": 5,
-            "random": true
+            "random": true,
+            "anim": {
+                "enable": true,
+                "speed": 5,
+                "size_min": 2,
+                "sync": false
+            }
         },
         "move": {
             "speed": 3.3,
