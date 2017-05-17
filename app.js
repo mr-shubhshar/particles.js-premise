@@ -42,3 +42,44 @@ particlesJS("snowfall", {
         }
     }
 });
+
+particlesJS("space", {
+    "particles": {
+        "number": {
+            "value": 20,
+            "density": {
+                "enable": true,
+                "value_area": 300
+            }
+        },
+        "line_linked": {
+            "enable": false
+        },
+        "shape": {
+            "type": "circle"
+        },
+        "size": {
+            "value": 5,
+            "random": true
+        },
+        "move": {
+            "speed": 2,
+            "direction": "right",
+            "straight": true
+        },
+        "opacity": {
+            "value": 1,
+            "random": true
+        }
+    },
+    "interactivity": {
+        "events": {
+            "onhover": {
+                "enable": false
+            },
+            "onclick": {
+                "enable": false
+            }
+        }
+    }
+});

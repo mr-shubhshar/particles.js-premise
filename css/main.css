@@ -5,8 +5,9 @@
     float: left;
 }
 
-#random {
+#space {
     height: 350px;
     background: gray;
     margin-left: 690px;
+    background: black;
 }
