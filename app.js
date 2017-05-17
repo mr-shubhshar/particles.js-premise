@@ -120,6 +120,10 @@ particlesJS("particles", {
             "onhover": {
                 "enable": true,
                 "mode": "repulse"
+            },
+            "onclick": {
+                "enable": true,
+                "mode": "push"
             }
         }
     }
