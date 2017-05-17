@@ -8,7 +8,7 @@ particlesJS("snowfall", {
             }
         },
         "shape": {
-            "type": "star"
+            "type": "circle"
         },
         "size": {
             "value": 7,
@@ -124,7 +124,15 @@ particlesJS("particles", {
             "onclick": {
                 "enable": true,
                 "mode": "push"
+
+            }
+        },
+        "modes": {
+            "repulse": {
+                "distance": 70,
+                "duration": 2
             }
         }
-    }
+    },
+    "retina_detect": true
 });
